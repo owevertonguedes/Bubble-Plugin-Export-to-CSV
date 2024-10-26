@@ -1,0 +1,14 @@
+{
+    "categories": {
+        "0": "technical",
+        "1": "productivity",
+        "2": "data (things)"
+    },
+    "data_tracked": false,
+    "demo_page": "https://wecodeless.site/plugins/Export-to-CSV",
+    "description": "Export Lists to CSV is an essential tool for users who will discover an efficient and straightforward way to export structured data to CSV files. This plugin allows you to easily define table headers by entering a list of names that each table will receive. Ideal for working with repetitive groups where data is viewed and managed, the plugin makes it easy to organize and export this data.\n\nWith Export Lists to CSV, the export process is intuitive and customizable: first, you enter the names that the tables should have, reflecting the organization of your data. Then select the specific lists of data you want to export. Each selection corresponds to a table in the final CSV file, allowing for clear and logical organization of the exported data.\n\nThis plugin is perfect for system administrators, developers and analysts who need to export data from web applications for offline analysis or data migration, ensuring that information is exported in a structured and easy-to-understand way.\n\nUse Export Lists to CSV to simplify your data export processes, saving time and improving the efficiency of your information management.\n\nDemo page: https://bubble.io/page?id=apptester-21320\n\nPreview: https://apptester-21320.bubbleapps.io/version-test",
+    "image": "//meta-q.cdn.bubble.io/f1715380735164x155540411496911000/DALL%C2%B7E%202024-05-10%2019.33.33%20-%20A%20simple%20and%20sleek%20icon%20design%20for%20a%20software%20plugin%2C%20symbolizing%20data%20export%20to%20CSV.%20The%20icon%20features%20a%20flat%20design%20of%20a%20document%20with%20a%20grid%20patter.webp",
+    "license": "open_source",
+    "link": "",
+    "name": "Export to CSV"
+}

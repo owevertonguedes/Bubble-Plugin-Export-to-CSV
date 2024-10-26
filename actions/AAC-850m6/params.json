@@ -1,0 +1,37 @@
+{
+    "category": "plugins",
+    "display": "Export to CSV",
+    "fields": {
+        "AAD": {
+            "caption": "tableNames",
+            "default_val": "Name, Email, Date",
+            "editor": "DynamicValue",
+            "is_list": false,
+            "long_text": false,
+            "name": "tableNames",
+            "rank": 1,
+            "value": "text"
+        },
+        "AAE": {
+            "caption": "tableData",
+            "default_val": "Name=(List), Email=(List), Date=(List)",
+            "doc": "When you pass lists, Bubble separates them with commas and this is what we use to identify cells, if you want to pass Dates (which have commas inside them: Jul 7, 1967 4:04 am) or Texts with commas, use \"find and replace\" to replace the commas \",\" with \"$comma\" so that your data is not broken during processing, do it this way: Text to find \",\" | Replace with $comma. Don't worry, we'll return your commas later :)",
+            "editor": "DynamicValue",
+            "is_list": false,
+            "long_text": true,
+            "name": "tableData",
+            "rank": 2,
+            "value": "text"
+        },
+        "AAG": {
+            "caption": "fileName",
+            "default_val": "",
+            "editor": "DynamicValue",
+            "name": "fileName",
+            "optional": true,
+            "rank": 0,
+            "value": "text"
+        }
+    },
+    "type": "client_side"
+}
